@@ -24,7 +24,7 @@ public class Main {
 
             if (choice == 1) {
                 if (tasks.isEmpty()) {
-                    System.out.println("List is empty");
+                    System.out.println("List is empty. Salam Aleykum nebesa visokiye");
                 } else {
                     for (int i = 0; i < tasks.size(); i++) {
                         System.out.println((i + 1) + ". " + tasks.get(i));
